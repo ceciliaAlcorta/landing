@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+body{margin: 0;font-size: 50%;}
+h1{ font-size: 3em;}
+ul li {font-size: 1em;}
+.fila{ display: flex;
+flex-wrap: wrap;
+justify-content: right;
+align-items: center;
+}
+.columna{width: 25%; padding: 1em;}
+
+@media(max-width:992px){
+    .columna{width: 20%;}
+}
+
+@media(max-width:768px){
+    .columna{width: 100%;}
+}
+h1{font-family: miFuente;
+}
+@font-face{
+    font-family: miFuente;
+    src: url(../Bungee/Bungee-Regular.ttf);
+    font-weight: 20%;
+    padding: 2em;
+}
+h4{font-family: head;}
+@font-face{
+    font-family: head;
+    src: url(../Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+ul li{
+    font-family: head;
+    text-align: right;
+    font: weight 80%;
+    padding-right: 2em;
+    /* margin-right: auto; */
+}
+.circulo{
+    margin: -3% 0% 0% 80%;
+    width: 10%;
+    height: 10%;
+}
+    
+img {width: 100%;}
+img {height:100%;
+}
